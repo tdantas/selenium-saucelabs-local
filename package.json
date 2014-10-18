@@ -1,0 +1,22 @@
+{
+  "name": "selenium-saucelabs-local",
+  "version": "0.0.1",
+  "description": "using saucelabs and local selenium",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "mocha test/*.test.js",
+    "saucelabstest": "SAUCELABS=true mocha test/*.test.js"
+  },
+  "author": "It's me Mario !!",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5",
+    "request": "^2.45.0",
+    "webdriverio": "^2.2.3"
+  },
+  "dependencies": {
+    "node-static": "^0.7.6"
+  }
+}
