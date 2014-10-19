@@ -33,11 +33,12 @@
 
 ## Running Tests
 
-##### Saucelabs
+##### Saucelabs tests
 	$ export SAUCE_ACCESS_KEY=<YOUR_ACCESS_KEY>
 	$ export SAUCE_USERNAME=<YOUR_USERNAME>
 	$ npm run-script saucelabstest
 	
+	# the config.js file inside test folder has the options to saucelabs 
 	
 ##### Running with your local selenium
 	$ npm test
