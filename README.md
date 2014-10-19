@@ -9,7 +9,7 @@
 	https://docs.saucelabs.com/reference/sauce-connect/ 
 	
 ##### Clone Repo
-	git clone https://github.com/tdantas/selenium-saucelab-local.git
+	git clone https://github.com/tdantas/selenium-saucelabs-local.git
 	
 
 
@@ -27,7 +27,7 @@
 	java -jar ./selenium-server-standalone-2.43.1.jar
 	
 ##### Install the code dependencies
-	cd selenium-saucelab-local
+	cd selenium-saucelabs-local
 	npm install
 	
 
